@@ -39,7 +39,7 @@ class IspcConan(ConanFile):
         if self.settings.os_build == 'Windows':
             suffix = 'windows'
             ext = 'zip'
-        elif self.settings.os_build == 'macOS':
+        elif self.settings.os_build == 'Macos':
             suffix = 'osx'
             ext = 'tar.gz'
         elif self.settings.os_build == 'Linux':
